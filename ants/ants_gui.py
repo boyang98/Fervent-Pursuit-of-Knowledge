@@ -1,22 +1,4 @@
-"""The ants_gui module implements a GUI for Ants vs. SomeBees.
-
-You should not feel that you need to read and understand this file, because all
-of the game logic is instead contained within ants.py.  We have provided some
-comments so that interested students can extend the graphics.
-
-=== Optional reading beyond this point ===
-
-The GUI for this game has a fixed layout specified by a series of global names
-that are constant throughout execution.  From a design perspective, global
-names are a fine solution for holding constants; most problems associated with
-global variables arise in programs that assign to global names.
-
-The GUI layout itself is divided into a control panel that lists all
-implemented ants and a play area populated with places.
-
-The Hive is handled as a special case so that the player can visually inspect
-how many bees remain in the hive.
-"""
+"""The ants_gui module implements a GUI for Ants vs. SomeBees."""
 
 import ants
 import graphics
